@@ -5,6 +5,7 @@ from typing import TypedDict, List, Annotated
 from langgraph.graph import StateGraph,START, END
 import operator
 from langchain_ollama import OllamaLLM
+from langgraph.prebuilt import create_react_agent
 
 llm = OllamaLLM(model = 'gemma2:2b')
 
