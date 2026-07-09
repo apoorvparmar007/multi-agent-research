@@ -31,4 +31,4 @@ agent = create_agent(model="ollama:qwen3:8b",
 # )
 
 result = agent.invoke({"messages": [{"role": "user", "content": "Ethanol in petrol in India"}]})
-print(result['content'])
+print(result)
